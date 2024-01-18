@@ -70,6 +70,11 @@ a#pdf:hover { background: #222; }
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
 #srt-ttab img.last { margin-top: 20px }
 
+body {
+    max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenido */
+}
+
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
